@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="47">
+ <tileset firstgid="1" name="iron" tilewidth="32" tileheight="32" tilecount="150" columns="10">
+  <image source="../../iron.jpg" width="334" height="501"/>
+ </tileset>
+ <tileset firstgid="151" name="bounds" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="../../back.png" width="345" height="345"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJyN0CEWgkAQgOG9jygYUIQAogZEYROZTPZgZI9j9hD8+94YhzF8ZXf+MDM75zaIsMUOMRJ51/72mPE2+hQHHJHhhByFtIPS/9oSFc6occEVN2nX+tA2uKPFA0906KUdV/rG6EM7Gb3Wemlfyo3SP/rQfpQbWbt7ab/KnLW7l3YB+G8ohg==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Object Layer 1">
+  <object id="46" x="0" y="0">
+   <polygon points="0,0 0,288 512,288 512,0 15,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Object Layer 2">
+  <object id="40" x="448" y="32">
+   <polyline points="0,0 0,64"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Object Layer 3">
+  <object id="44" x="512" y="64">
+   <polyline points="0,0 0,160"/>
+  </object>
+ </objectgroup>
+</map>
